@@ -1,8 +1,9 @@
 Boilerplate project
-===============
+===================
+
 This project is a ready-to use boilerplate for "It's not a bug, It's a feature" Java course.
 
-#### How-to use
+# How-to use
 
 1. `git clone https://github.com/ChangeRequest/boilerplate-project.git name_of_new_project`
 2. `git remote remove origin`
@@ -12,7 +13,7 @@ This project is a ready-to use boilerplate for "It's not a bug, It's a feature" 
 6. Update Author name in `LICENSE` (if needed)
 7. Continue working in your new ready-to-use repository.
 
-####Already configured parts
+# Already configured parts
 
 * Travis-CI configuration file
 * .gitignore file
@@ -20,12 +21,14 @@ This project is a ready-to use boilerplate for "It's not a bug, It's a feature" 
 * License file with `Apache License Version 2.0`
 * empty package in src folder (`school.lemon.changerequest.java`)
 
-#### Travis-CI configuration
+# Travis-CI configuration
+
 * Oracle JDK 8
 * Install step: `gradlew clean assemble`
 * Check step: `gradlew check`
 
-#### .gitignore
+# .gitignore
+
 Already configured to ignore most of unwonted stuff:
 * eclipse ignores
 * IDEA ignores
@@ -33,7 +36,8 @@ Already configured to ignore most of unwonted stuff:
 * gradle and maven ignores
 * etc.
 
-#### build.gradle
+# build.gradle
+
 * group is `school.lemon.changerequest.java`
 * applied module from [gradle_common project]:
   * commonModule
